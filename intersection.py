@@ -49,7 +49,9 @@ def calculate_initial_compass_bearing(pointA, pointB):
 
 def arc_intersection(lat1, lon1, bearing1, lat2, lon2, bearing2):
 
-    
+    '''
+    Translated to Python from http://www.movable-type.co.uk/scripts/latlong.html
+    '''
     lat1 = radians(lat1)
     lon1 = radians(lon1)
     lat2 = radians(lat2)
