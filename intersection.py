@@ -102,7 +102,9 @@ pointB1 = (40, 40)
 pointB2 = (41, 41)
 #first find the bearings
 bearing1 = calculate_initial_compass_bearing(pointA1, pointA2)
+print bearing1
 bearing2 = calculate_initial_compass_bearing(pointB1, pointB2)
+print bearing2
 
 #use A1 and B1 as start points and bearing1, bearing2 to find the intersection
 intersection_point = arc_intersection(lat1=pointA1[0], lon1=pointA1[1], bearing1=bearing1, lat2=pointB1[0], lon2=pointB1[1], bearing2=bearing2)
