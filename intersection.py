@@ -1,7 +1,7 @@
 import math
 from math import sin, cos, atan2, asin, acos, tan, radians, sqrt, degrees, pi
 
-#used from https://gist.github.com/jeromer/2005586 with a little modification
+#used from https://gist.github.com/jeromer/2005586
 def calculate_initial_compass_bearing(pointA, pointB):
     """
     Calculates the bearing between two points.
